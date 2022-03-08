@@ -52,8 +52,8 @@ static const struct snd_kcontrol_new bd3490fv_snd_controls[] = {
 
 // Input selector
 static const char * const bd3490fv_input_selector_text[] = {
-	"Pi",
 	"Aux",
+	"Pi",
 };
 static const struct soc_enum bd3490fv_input_selector_enum =
 	SOC_ENUM_SINGLE(
